@@ -10,4 +10,9 @@ class SampleController {
     fun hello(): String {
         return "hello"
     }
+
+    @GetMapping("/get-id")
+    fun getId(): String {
+        return "test001"
+    }
 }
